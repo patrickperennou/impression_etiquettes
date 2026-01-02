@@ -27,15 +27,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 8.2in;
-  height: 11.6in;
+  width: 8.268in;
+  height: 11.693in;
 }
 
 @media not print {
   .page-outer {
     overflow: hidden;
-    width: calc(8.2in * var(--page-scaling, 1));
-    height: calc(11.6in * var(--page-scaling, 1));
+    width: calc(8.268in * var(--page-scaling, 1));
+    height: calc(11.693in * var(--page-scaling, 1));
   }
   .labelpage {
     transform: scale(var(--page-scaling, 1));
@@ -60,10 +60,10 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   align-content: space-between;
-  height: calc(11.6in - 2 * var(--vmargin, 0));
-  width: calc(8.2in - 2 * var(--hmargin, 0));
-  min-height: calc(11.6in - 2 * var(--vmargin, 0));
-  min-width: calc(8.2in - 2 * var(--hmargin, 0));
+  height: calc(11.693in - 2 * var(--vmargin, 0));
+  width: calc(8.268in - 2 * var(--hmargin, 0));
+  min-height: calc(11.693in - 2 * var(--vmargin, 0));
+  min-width: calc(8.268in - 2 * var(--hmargin, 0));
 }
 
 /*
