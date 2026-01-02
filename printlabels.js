@@ -7,6 +7,10 @@ function ready(fn) {
 }
 
 const templates = [{
+  id: 'ETIBOX119766',
+  name: '27 per sheet (1.22" x 2.75")',
+  perPage: 27,
+}, {
   id: 'labels8',
   name: '8 per sheet (2-1/3" x 3-3/8")',
   perPage: 8,
