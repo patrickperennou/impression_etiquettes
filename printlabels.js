@@ -8,7 +8,7 @@ function ready(fn) {
 
 const templates = [{
   id: 'ETIBOX119766',
-  name: '27 par page (1-7/32" x 2-3/4")',
+  name: 'ETIBOX119766 - 27 par page (1-7/32" x 2-3/4")',
   perPage: 27,
 }, {
   id: 'labels8',
