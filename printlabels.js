@@ -8,7 +8,7 @@ function ready(fn) {
 
 const templates = [{
   id: 'ETIBOX119766',
-  name: '27 par page (1-7/32" x 2=3/4")',
+  name: '27 par page (1-7/32" x 2-3/4")',
   perPage: 27,
 }, {
   id: 'labels8',
@@ -40,7 +40,7 @@ const templates = [{
 // this should not be used any more.
 const defaultTemplate =
   findTemplate(document.location.hash.slice(1)) ||
-  findTemplate('labels30');
+  findTemplate('ETIBOX119766');
 
 function findTemplate(id) {
   return templates.find(t => t.id === id);
